@@ -4,7 +4,7 @@
 Create an endpoint for quering Star Wars characters: `/characters/{name}`. For instance, `/characters/Luke Skywalker` should return information on Luke Skywalker. 
 
 ### Resources
-To do this, you will use the Star Wars API (www.swapi.dev). However, you are only allowed to use https://swapi.dev/api/people/ as your entry point. That means, you will have to go through the response to find the correct person.
+To do this, you will use the Star Wars API (swapi.dev). However, you are only allowed to use https://swapi.dev/api/people/ as your entry point. That means, you will have to go through the response to find the correct person.
 
 Each person object has references to `starships`. This in turn has references to people. In the case of a starship, it has a reference to `pilots`, which are the related persons.
 
